@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 #url: "https://sasview.github.io"
-#baseurl: ""
+#baseurl: "/beautiful-jekyll"
 
 # If you are building a GitHub project page then use these settings:
 url: "http://sasview.github.io/beautiful-jekyll"
@@ -23,7 +23,13 @@ description: Small Angle Scattering Analysis
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+
+  About: "about"
+  Download & Links: "download"
+  People: "people"
+  Help:
+    - Help me: "help"
+    - FAQ: "faq"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
