@@ -19,9 +19,9 @@ Much is documented in the help documentation. In particular, descriptions of eac
 
 Whenever you run SasView it silently creates/appends debugging information to a log file. If you are reporting a technical problem with SasView, it can be helpful to the Development Team if you send us the log file. Where the log file resides depends on your operating system:
 
-*   Windows: C:\\Users\\your\_username\\sasview.txt
+*   Windows: `C:\Users\your_username\sasview.txt`
 *   Mac OS:
-*   Linux:
+*   Linux: `~/sasview.txt`
 
 ### How to contribute
 
@@ -29,8 +29,8 @@ Whenever you run SasView it silently creates/appends debugging information to a 
 
 ### Things people are saying about SansView/SasView
 
-*   _'SansView is a very helpful tool, very complete and easy to use_ - Niki
-*   _'I want to thank you for this amazing software. It's UI and options make the interpretation of spectra easier and faster_ - Philippe
+*   _'SansView is a very helpful tool, very complete and easy to use'_ - Niki
+*   _'I want to thank you for this amazing software. It's UI and options make the interpretation of spectra easier and faster'_ - Philippe
 *   _'I really like the SasView software'_ - Martin
 *   _'I have been using SasView as my software of choice for fitting SANS data, and I have been very happy with the software'_ - Greg
 *   _'I have found SasView very easy to use and the batch fit function is a wonderful time saving tool. I can finally stop making painful excel macros!'_ - Andrew
@@ -54,6 +54,6 @@ You may use and redistribute SasView for free, including for proprietary purpose
 
 ### Acknowledgements
 
-If you found this sofware useful to your work please dont forget to acknowledge its use in your publications as suggested below and reference this website: _http://www.sasview.org/_. Please also consider letting us know by sending us the reference to your work. This will help us to ensure the long term support and development of the software.
+If you found this sofware useful to your work please dont forget to acknowledge its use in your publications as suggested below and reference this website: [http://www.sasview.org](http://www.sasview.org). Please also consider letting us know by sending us the reference to your work. This will help us to ensure the long term support and development of the software.
 
 > _This work benefited from the use of the SasView application, originally developed under NSF award DMR-0520547. SasView contains code developed with funding from the European Union's Horizon 2020 research and innovation programme under the SINE2020 project, grant agreement No 654000._

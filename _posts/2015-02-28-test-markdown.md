@@ -25,7 +25,7 @@ Here's a useless table:
 
 How about a yummy crepe?
 
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![Crepe](https://image.afcdn.com/recipe/20130914/42772_w420h344c1cx175cy182.jpg)
 
 Here's a code chunk:
 

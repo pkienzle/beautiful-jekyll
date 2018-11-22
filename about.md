@@ -17,7 +17,7 @@ The collaborative development model is designed to encourage and enable contribu
 
 ### Current Scope and Functionality
 
-![](/img/PQTimesSQFitting.png)  
+![](/beautiful-jekyll/img/PQTimesSQFitting.png)  
 _1D fitting screenshot_.  
   
 
@@ -27,11 +27,10 @@ SAS analyis is a fairly broad term, potentially covering a huge amount of ground
 
 The second demarcation is between real space and inverse space analysis. By inverse space analysis we mean the process of thinking about data in inverse space as collected, while by real space analysis we mean the process of thinking about the data in real 3D space. The first case represents the traditional approach to SAS analyis used by colloid and materials scientists while the second has been pioneered mostly by the biological scattering community. We believe that these are two very different (if complementary) ways of thinking about the problem and it would be very difficult to create a single user interface ideal for both. Thus SasView is designed as an inverse space modelling tool. We hope to build partnerships to interact with real space analysis packages such as the [SASSIE project](http://www.smallangles.net/sassie/), providing if appropriate support in making them relevant beyond biological systems. Two methods cross this boundary: Distance distribution, P(R), and correlation function analyses which attempt a direct inversion of the data to real space with no a priori assumptions, and shape reconstruction or "ab initio" methods which seek to refine an arbitrary 3D real space model (again with no a priori knowledge) till its Fourier inversion fits the scattering data. The first method is incorporated into SasView. At this time the second is thought to be more appropriate for the real space analysis packages. The philosophy is to try to balance the desire to do all one's analysis in one package with the need to keep the interface somewhat intuitive and easy to learn and use. The hope is to achieve this balance by packaging all the functionality likely to be wanted by most users of this package most of the time and to design and build interfaces with complementary packages to allow data to be moved transparently across applications when needed.
 
-```
-![](media/2DAnalysis.png)  
+
+![](/beautiful-jekyll/img/2DAnalysis.png)  
 _2D fitting screenshot_  
   
-```
 
 SasView supports the [canSAS 1D](http://www.cansas.org/formats/canSAS1d/1.1/doc/specification.html) XML file format, but will read almost any 1D ASCII column data (but not any associated metadata). For 2D data SasView reads the newly-ratified [canSAS 2D](http://www.cansas.org/formats/canSAS2012/1.0/doc/) [NeXus](http://www.nexusformat.org/) HDF5 format in addition to the [NIST 2D](http://danse.chem.utk.edu/trac/wiki/NCNROutput1D_2DQxQy) ASCII format. SasView was developed with a view to take advantage of modern computing power to make analysis of non-azimuthally symmetric 2D data (such as obtained under the influence of a directional field such as flow, or magnetic or electric fields) more routine.  
 
@@ -41,12 +40,12 @@ _Major GUI features:_ Poydispersity and orientational distributions can be appli
 
 ### History
 
-```
-![](media/PolBeamScatt.png)  
+
+![](/beautiful-jekyll/img/PolBeamScatt.png)  
 _CoreShell simulation with Mcore parallel to the x-axis  
 and Mshell canted away. Top figure: polarisation (up,up)  
 Bottom figure: polarisation (up,down)_  
-```
+
 
 SasView evolved from the SansView project, the flagship application developed under the auspices of the 5 year NSF-funded DANSE (Distributed Analysis for Neutron Scattering Experiments) project led out of Caltech that began in May 2006. The Small Angle Neutron Scattering (SANS) portion of that project was led by the Chemistry Department at The University of Tennessee which continues to host some servers to this day. More information on the DANSE project itself can be found at [danse.us](http://danse.us) while the SANS portion of the project is described at [danse.chem.utk.edu](http://danse.chem.utk.edu).
 
