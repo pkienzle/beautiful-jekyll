@@ -51,7 +51,7 @@ SasView evolved from the SansView project, the flagship application developed un
 
 The NSF project officially ended on November 30, 2011, culminating in the release of SansView 2.1.1 which incoporated much feedback from the community, particularly in respect of SliceView and PrView. From Dec 1, 2011 to April 2013, [NIST](http://www.ncnr.nist.gov), in co-operation with [UMD](http://www.umd.edu), funded a full time developer in order to bridge the transition to a collaborative community project. At the same time the project was given a more appropriate name and work was undertaken to build a better infrastructure to support a professional development activity including aquiring a corresponding domain name. In the summer of 2012 both [ISIS](http://www.isis.stfc.ac.uk/) and the [ILL](http://www.ill.eu/) contributed a summer intern to work on the project and contributed some new models and improvements to the plotting and model selection mechanisms. The initial release of SasView was at 2.2, acknowledging its parentage.
 
-The project was presented at the [SAS-2012 Conference](http://www.ansto.gov.au/Events/Eventsandresources/Past/SAS2012/) in Sydney Australia, Nov. 18-23, 2012, and the [first developer Code Camp](sasview_workshop_2013.html) was held in April 2013.
+The project was presented at the [SAS-2012 Conference](http://www.ansto.gov.au/Events/Eventsandresources/Past/SAS2012/) in Sydney Australia, Nov. 18-23, 2012, and the [first developer Code Camp](/2013-04-02-code-camp-1/) was held in April 2013.
 
 ### Current Status
 
@@ -63,6 +63,6 @@ Anyone interested in contributing to the development of SasView is encouraged to
 
 ### Acknowledgements
 
-If you found this sofware useful to your work please dont forget to acknowledge its use in your publications as suggested below and reference this website: _http://www.sasview.org/_. Please also consider letting us know by sending us the reference to your work. This will help us to ensure the long term support and development of the software.
+If you found this sofware useful to your work please dont forget to acknowledge its use in your publications as suggested below and reference this website: [http://www.sasview.org/](http://www.sasview.org/). Please also consider letting us know by sending us the reference to your work. This will help us to ensure the long term support and development of the software.
 
 > _This work benefited from the use of the SasView application, originally developed under NSF award DMR-0520547. SasView contains code developed with funding from the European Union's Horizon 2020 research and innovation programme under the SINE2020 project, grant agreement No 654000._
