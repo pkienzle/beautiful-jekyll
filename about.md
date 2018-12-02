@@ -17,7 +17,7 @@ The collaborative development model is designed to encourage and enable contribu
 
 ### Current Scope and Functionality
 
-![](/beautiful-jekyll/img/PQTimesSQFitting.png)  
+![]({{ site.baseurl }}/img/PQTimesSQFitting.png)  
 _1D fitting screenshot_.  
   
 
@@ -28,7 +28,7 @@ SAS analyis is a fairly broad term, potentially covering a huge amount of ground
 The second demarcation is between real space and inverse space analysis. By inverse space analysis we mean the process of thinking about data in inverse space as collected, while by real space analysis we mean the process of thinking about the data in real 3D space. The first case represents the traditional approach to SAS analyis used by colloid and materials scientists while the second has been pioneered mostly by the biological scattering community. We believe that these are two very different (if complementary) ways of thinking about the problem and it would be very difficult to create a single user interface ideal for both. Thus SasView is designed as an inverse space modelling tool. We hope to build partnerships to interact with real space analysis packages such as the [SASSIE project](http://www.smallangles.net/sassie/), providing if appropriate support in making them relevant beyond biological systems. Two methods cross this boundary: Distance distribution, P(R), and correlation function analyses which attempt a direct inversion of the data to real space with no a priori assumptions, and shape reconstruction or "ab initio" methods which seek to refine an arbitrary 3D real space model (again with no a priori knowledge) till its Fourier inversion fits the scattering data. The first method is incorporated into SasView. At this time the second is thought to be more appropriate for the real space analysis packages. The philosophy is to try to balance the desire to do all one's analysis in one package with the need to keep the interface somewhat intuitive and easy to learn and use. The hope is to achieve this balance by packaging all the functionality likely to be wanted by most users of this package most of the time and to design and build interfaces with complementary packages to allow data to be moved transparently across applications when needed.
 
 
-![](/beautiful-jekyll/img/2DAnalysis.png)  
+![]({{ site.baseurl }}/img/2DAnalysis.png)  
 _2D fitting screenshot_  
   
 
@@ -41,7 +41,7 @@ _Major GUI features:_ Poydispersity and orientational distributions can be appli
 ### History
 
 
-![](/beautiful-jekyll/img/PolBeamScatt.png)  
+![]({{ site.baseurl }}/img/PolBeamScatt.png)  
 _CoreShell simulation with Mcore parallel to the x-axis  
 and Mshell canted away. Top figure: polarisation (up,up)  
 Bottom figure: polarisation (up,down)_  
