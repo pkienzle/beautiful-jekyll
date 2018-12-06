@@ -8,8 +8,18 @@ bigimg:
 ---
 
 <div class="jumbotron">
-  <h3>Download The Latest Release Version of SasView</h3>
-  <p><a class="btn btn-primary btn-lg" href="https://github.com/SasView/sasview/releases" role="button">Download</a></p>
+  <h3 class="text-center">Download The Latest Release Version of SasView</h3>
+  {% assign last_release_found = false %}
+  {% for post in paginator.posts %}    
+    {% for tag in post.tags %}
+      {% if tag == "release" and last_release_found == false %}
+      <p class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/SasView/sasview/releases" role="button">
+        Download {{ post.title }}</a></p>
+      <p class="text-center">Released on {{ post.date | date: "%B %-d, %Y" }}. <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">See what's new!</a></p>
+        {% assign last_release_found = true %}
+      {% endif %}  
+    {% endfor %}
+  {% endfor %}
 </div>
 
 <p><strong>A SAS Community Project launched from the NSF DANSE effort</strong><br/>
